@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="bottom_bars">
+
+        <attr name="text_select" format="color"></attr>
+        <attr name="text_no_select" format="color"></attr>
+        <attr name="text_size" format="dimension"></attr>
+        <attr name="circle_color" format="color"></attr>
+        <attr name="circle_size" format="integer"></attr>
+
+    </declare-styleable>
+
+</resources>

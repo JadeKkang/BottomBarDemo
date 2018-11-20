@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:id="@+id/fl_mains"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+       >
+
+    </FrameLayout>
+
+    <com.example.mlibrary.BottomBar
+        android:id="@+id/bt_bar"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="55dp">
+
+    </com.example.mlibrary.BottomBar>
+
+</LinearLayout>
