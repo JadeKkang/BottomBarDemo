@@ -2,27 +2,29 @@
 ![](https://github.com/JadeKkang/BottomBarDemo/blob/master/image/bottombar01.gif)
 ![](https://github.com/JadeKkang/BottomBarDemo/blob/master/image/bottombar02.gif)
 # 使用
-1.在项目gradle中添加<br>  
-allprojects {<br> 
-repositories {<br> 
-...<br> 
-maven { url 'https://jitpack.io' }<br> 
-}<br> 
-}<br> 
-2.添加依赖<br> 
- {implementation 'com.github.JadeKkang:BottomBarDemo:v1.0'}<br> 
-3.xml中使用<br>  
-<com.example.mlibrary.BottomBar<br>  
-        android:id="@+id/bt_bar"<br>  
-        android:layout_width="match_parent"<br>  
-        android:background="@color/colorAccent"<br>  
-        app:text_select="@color/text_select"<br>  
-        app:text_no_select="@color/text_no_select"<br>  
-        app:text_size="14sp"<br>  
-        app:circle_color="@color/colorCircle"<br>  
-        app:circle_size="20"<br>  
-        android:layout_height="55dp"><br>  
-    </com.example.mlibrary.BottomBar><br>  
+     1.在项目gradle中添加
+       allprojects {
+          repositories {
+                ...
+                maven { url 'https://jitpack.io' }
+           }
+        }
+     2.添加依赖
+       {
+       implementation 'com.github.JadeKkang:BottomBarDemo:v1.0'
+       }
+     3.xml中使用 
+     <com.example.mlibrary.BottomBar
+        android:id="@+id/bt_bar" 
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent" 
+        app:text_select="@color/text_select"
+        app:text_no_select="@color/text_no_select"  
+        app:text_size="14sp"  
+        app:circle_color="@color/colorCircle"  
+        app:circle_size="20"  
+        android:layout_height="55dp"> 
+    </com.example.mlibrary.BottomBar> 
 # 自定义属性
 | 属性 | 值 | 描述 | 
 | ------------- |:-------------:| -----:| 
