@@ -11,7 +11,7 @@
         }
      2.添加依赖
        {
-       implementation 'com.github.JadeKkang:BottomBarDemo:v1.0'
+       implementation 'com.github.JadeKkang:BottomBarDemo:v1.0.1'
        }
      3.xml中使用 
      <com.example.mlibrary.BottomBar
